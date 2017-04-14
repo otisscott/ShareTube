@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShareTube</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+</head>
+<body>
+<video poster="Timeline_1.jpg" id="bgvid" playsinline autoplay muted loop>
+    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="Timeline_1.webm" type="video/webm" style="z-index: 1; position:absolute">
+</video>
+<div id="greyout"> </div>
+<div class="container" >
+    <div id="box">
+        <div id="title"> WatchTogether </div>
+        <div id="info"> Specially made to let Otis and Ruby watch movies together across the world.</div>
+    </div>
+</div>
+</body>
+</html>
