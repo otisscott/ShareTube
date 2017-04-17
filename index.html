@@ -8,10 +8,12 @@
     <script src="scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="997057210573-ten6ff8ia3m57tgceutif8ce3hnkiipq.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 <body>
 <video poster="Timeline_1.jpg" id="bgvid" playsinline autoplay muted loop>
-    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
     <source src="Timeline_1.webm" type="video/webm" style="z-index: 1; position:absolute">
 </video>
 <div id="greyout"> </div>
@@ -19,6 +21,7 @@
     <div id="box">
         <div id="title"> WatchTogether </div>
         <div id="info"> Specially made to let Otis and Ruby watch movies together across the world.</div>
+        <div class="g-signin2" data-onsuccess="onSignIn()" data-theme="dark"></div>
     </div>
 </div>
 </body>

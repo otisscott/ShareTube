@@ -43,6 +43,7 @@ video {
     outline-style: solid;
     margin-left: 20%;
     margin-right: 20%;
+    border-radius: 15%;
 }
 #info {
     padding-top: 40px;
@@ -52,4 +53,8 @@ video {
     text-align: center;
     color: #faf8ff;
     z-index: 9999;
+}
+.g-signin2 {
+    margin-left: 37%;
+    padding: 5%;
 }
