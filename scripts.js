@@ -1,25 +1,6 @@
 /**
  * Created by h205p2 on 4/13/17.
  */
-var vid = document.getElementById("bgvid");
-
-if (window.matchMedia('(prefers-reduced-motion)').matches) {
-    vid.removeAttribute("autoplay");
-    vid.pause();
-    pauseButton.innerHTML = "Paused";
-}
-
-function vidFade() {
-    vid.classList.add("stopfade");
-}
-
-vid.addEventListener('ended', function()
-{
-// only functional if "loop" is removed
-    vid.pause();
-// to capture IE10
-    vidFade();
-});
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
     console.log("ID: " + profile.getId()); // Don't send this directly to your server!
@@ -29,7 +10,10 @@ function onSignIn(googleUser) {
     console.log("Image URL: " + profile.getImageUrl());
     console.log("Email: " + profile.getEmail());
 
-    // The ID token you need to pass to your backend:
+
     var id_token = googleUser.getAuthResponse().id_token;
     console.log("ID Token: " + id_token);
+    if(window.location.pathname == '/ShareTube/index.html') {
+        location.href = "http://localhost:63342/ShareTube/postsignin.html"
+    }
 }

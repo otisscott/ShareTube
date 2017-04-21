@@ -35,7 +35,7 @@ video {
     font-family: Montserrat;
     font-size: 600%;
     text-align: center;
-    color: #faf8ff;
+    color: #ffffff;
     z-index: 9999;
 }
 #box {
@@ -51,7 +51,7 @@ video {
     font-weight: 200;
     font-size: 200%;
     text-align: center;
-    color: #faf8ff;
+    color: #ffffff;
     z-index: 9999;
 }
 .g-signin2 {
