@@ -1,0 +1,25 @@
+html,
+body{
+    overflow-y: scroll;
+}
+.view {
+    margin-top: 4%;
+    height: 100%;
+    clear: both;
+}
+
+.view {
+    background: url("https://i.imgur.com/ywg6PlQ.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page-footer {
+    bottom: 0;
+    position: relative;
+}
+.card {
+    margin-top: 2%;
+}
