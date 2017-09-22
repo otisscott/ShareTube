@@ -13,7 +13,7 @@ function onSignIn(googleUser) {
 
     var id_token = googleUser.getAuthResponse().id_token;
     console.log("ID Token: " + id_token);
-    if(window.location.pathname == '/ShareTube/index.html') {
-        location.href = "http://localhost:63342/ShareTube/postsignin.html"
+    if(window.location.pathname == 'http://otisscott.github.io/ShareTube/') {
+        location.href = "http://otisscott.github.io/ShareTube/postsignin.html";
     }
 }
