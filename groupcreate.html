@@ -12,9 +12,9 @@
     <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
-    <link href="css/groupcreate.css" rel="stylesheet">
     <link href="css/dropzone.css" rel="stylesheet">
     <script src="js/dropzone.js"></script>
+    <link href="css/groupcreate.css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper"></div>
@@ -46,24 +46,23 @@
 
 </nav>
 <nav class="navbar navbar-dark info-color">
-
     <a class="navbar-brand" href="#"> Sneaky Bullshit Work Around</a>
-
 </nav>
 
 <div class="view">
     <div class="container">
+        <div id="title">Create a Group</div>
         <div class="md-form">
-            <input placeholder="Placeholder" type="text" id="form1" class="form-control">
-            <label for="form1">Example label</label>
+            <input type="text" id="form1" class="form-control">
+            <label for="form1" class="">Group Name</label>
         </div>
         <div class="md-form">
-            <input placeholder="Placeholder" type="text" id="form2" class="form-control">
-            <label for="form2">Example label</label>
+            <input type="text" id="form2" class="form-control">
+            <label for="form1" class="">Group Description</label>
         </div>
         <div class="md-form">
-            <input placeholder="Placeholder" type="text" id="form3" class="form-control">
-            <label for="form3">Example label</label>
+            <input type="text" id="form3" class="form-control">
+            <label for="form1" class="">Password</label>
         </div>
         <form action="/file-upload"
               class="dropzone"

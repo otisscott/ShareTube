@@ -1,29 +1,42 @@
+html,
+body {
+    overflow-y: scroll;
+}
 .dropzone, .dropzone * {
-    box-sizing: border-box; }
+    box-sizing: border-box;
+}
 
 .dropzone {
-    position: relative; }
+    position: relative;
+    margin-bottom: 5%;
+}
 .dropzone .dz-preview {
     position: relative;
     display: inline-block;
     width: 120px;
-    margin: 0.5em; }
+    margin: 0.5em;
+}
 .dropzone .dz-preview .dz-progress {
     display: block;
     height: 15px;
-    border: 1px solid #aaa; }
+    border: 1px solid #aaa;
+}
 .dropzone .dz-preview .dz-progress .dz-upload {
     display: block;
     height: 100%;
     width: 0;
-    background: green; }
+    background: green;
+}
 .dropzone .dz-preview .dz-error-message {
     color: red;
-    display: none; }
+    display: none;
+}
 .dropzone .dz-preview.dz-error .dz-error-message, .dropzone .dz-preview.dz-error .dz-error-mark {
-    display: block; }
+    display: block;
+}
 .dropzone .dz-preview.dz-success .dz-success-mark {
-    display: block; }
+    display: block;
+}
 .dropzone .dz-preview .dz-error-mark, .dropzone .dz-preview .dz-success-mark {
     position: absolute;
     display: none;
@@ -32,4 +45,40 @@
     width: 54px;
     height: 58px;
     left: 50%;
-    margin-left: -27px; }
+    margin-left: -27px;
+}
+
+.view {
+    height: 100%;
+    clear: both;
+}
+
+.view {
+    background: url("https://i.imgur.com/ywg6PlQ.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page-footer {
+    bottom: 0;
+    position: relative;
+}
+.card {
+    margin: 2% 2% 0 2%;
+}
+.form-control {
+    color: white;
+}
+input {
+    color: white;
+}
+.container {
+    margin-top: 5%;
+}
+#title {
+    color: white;
+    font-size: x-large;
+    font-style: oblique;
+}
