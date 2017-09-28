@@ -1,5 +1,5 @@
 html,
-body{
+body {
     overflow-y: scroll;
 }
 .view {
@@ -15,10 +15,9 @@ body{
     background-size: cover;
 }
 
-.page-footer {
-    bottom: 0;
-    position: relative;
-}
 .card {
     margin: 2% 2% 0 2%;
+}
+#wrapper {
+    height: 100vh;
 }
