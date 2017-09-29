@@ -3,7 +3,9 @@ body {
     overflow-y: scroll;
 }
 .view {
+    position: relative;
     height: 100%;
+    width: 100%;
     clear: both;
 }
 
@@ -20,4 +22,9 @@ body {
 }
 #wrapper {
     height: 100vh;
+}
+.page-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
