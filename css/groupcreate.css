@@ -1,9 +1,18 @@
 html,
 body {
-    overflow-y: scroll;
+    background: url("https://i.imgur.com/ywg6PlQ.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .dropzone, .dropzone * {
     box-sizing: border-box;
+}
+
+.dz-clickable {
+    background-color: #bbbbbb;
+    color: #757575;
 }
 
 .dropzone {
@@ -49,26 +58,14 @@ body {
 }
 
 .view {
-    width: 100%;
-    height: 100vh;
     clear: both;
-}
-
-.view {
-    background: url("https://i.imgur.com/ywg6PlQ.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    position: relative;
 }
 
 .card {
     margin: 2% 2% 0 2%;
 }
 .form-control {
-    color: white;
-}
-input {
     color: white;
 }
 .container {
@@ -80,8 +77,11 @@ input {
     font-size: x-large;
     font-style: oblique;
 }
+#private {
+    color: #757575;
+}
 .page-footer {
-    width: 100%;
-    position: absolute;
     bottom: 0;
+    position: absolute;
+    width: 100vw;
 }
